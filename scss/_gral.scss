@@ -1,0 +1,39 @@
+/*  estilos generales  */
+
+
+*{
+    @include o-px;
+    background-color:$negro;
+    color: $blanco;
+    font-family: $fuente;
+}
+
+.h1{
+    font-weight: 800;
+}
+
+.separador{
+    height: 150px;
+}
+
+.separador-1{
+    height: 20px;
+}
+
+.separador-2{
+    height: 75px;
+}
+
+.punto{
+    color: $rojo;
+    font-size: xx-large;
+}
+
+.butn{
+    @include boton
+}
+
+.boton-crecimiento {
+    @include animacion-crecimiento;
+}
+

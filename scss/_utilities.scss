@@ -1,0 +1,41 @@
+/* variables */
+
+$negro: rgb(0, 0, 0);
+$gris:  rgb(52, 58, 64);
+$rojo: rgb(220, 53, 69);
+$blanco: rgb(240, 248, 255);
+$fuente: sans-serif;
+
+/* funciones */
+
+
+
+/* mixins */
+
+@mixin o-px {
+    margin: 0px;
+    padding: 0px;
+}
+
+@mixin centrado {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin boton {
+    display: flex;
+    margin: 10px auto;
+    background-color: rgb(70, 70, 70);
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-bottom: 50px;
+}
+
+@mixin animacion-crecimiento {
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1); // El valor 1.1 hace que el botón se agrande un 10%
+    }
+}
+/* mapa */
