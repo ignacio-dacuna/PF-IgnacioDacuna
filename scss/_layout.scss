@@ -17,8 +17,8 @@ header{
     }
     .logo{
         background-color: $gris;
-        height: 60px;
         @include animacion-crecimiento;
+        height: 60px;
     }
     .palabras{
         background-color: $gris;
@@ -27,6 +27,7 @@ header{
     .nav-link{
         background-color: $gris;
         color: $blanco;
+        
     }
 }
 
