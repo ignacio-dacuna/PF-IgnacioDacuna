@@ -26,7 +26,6 @@ header{
     }
     .nav-link{
         background-color: $gris;
-        @include animacion-crecimiento;
         color: $blanco;
     }
 }
