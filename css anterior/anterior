@@ -1,18 +1,14 @@
-
+/*
 *{
-    margin: 0px;
-    padding: 0px;
-    background-color: black;
-    color: aliceblue;
-    font-family: sans-serif;
+    @include o-px;
+    background-color:$negro;
+    color: $blanco;
+    font-family: $fuente;
 }
+*/
 
-.linea-gris{
-    margin-top: 10px;
-    background-color: rgb(52, 58, 64);
-    height: 5px;
-    width: 100%;
-}
+
+
 .h1{
     font-weight: 800;
 }
@@ -38,12 +34,7 @@
     margin-top: 20px ;
 }
 
-.foto-2{
-    width: 90%;
-    border-radius: 10px;
-    margin-top: 20px ;
-    height: 350px;
-}
+
 
 .tit{
     color: rgb(220, 53, 69);
