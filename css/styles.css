@@ -1,0 +1,199 @@
+/* variables */
+/* funciones */
+/* mixins */
+/* mapa */
+/* header */
+header {
+  background-color: rgb(52, 58, 64);
+}
+header .custom {
+  background-color: rgb(52, 58, 64);
+}
+header .custom .container {
+  background-color: rgb(52, 58, 64);
+}
+header .custom .container .navbar-brand {
+  background-color: rgb(52, 58, 64);
+  transition: transform 0.3s ease-in-out;
+  margin-left: 5px;
+}
+header .custom .container .navbar-brand:hover {
+  transform: scale(1.1);
+}
+header .custom .container .navbar-toggler {
+  background-color: rgb(0, 0, 0);
+}
+header .logo {
+  background-color: rgb(52, 58, 64);
+  transition: transform 0.3s ease-in-out;
+  height: 60px;
+}
+header .logo:hover {
+  transform: scale(1.1);
+}
+header .palabras {
+  background-color: rgb(52, 58, 64);
+  justify-content: flex-end;
+}
+header .nav-link {
+  background-color: rgb(52, 58, 64);
+  color: rgb(240, 248, 255);
+}
+
+/* footer */
+.linea-gris {
+  margin-top: 10px;
+  background-color: rgb(52, 58, 64);
+  height: 5px;
+  width: 100%;
+}
+
+.h4 {
+  color: rgb(220, 53, 69);
+  font-weight: 600;
+}
+
+/*  estilos generales  */
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(240, 248, 255);
+  font-family: sans-serif;
+}
+
+.h1 {
+  font-weight: 800;
+}
+
+.separador {
+  height: 150px;
+}
+
+.separador-1 {
+  height: 20px;
+}
+
+.separador-2 {
+  height: 75px;
+}
+
+.punto {
+  color: rgb(220, 53, 69);
+  font-size: xx-large;
+}
+
+.butn {
+  display: flex;
+  margin: 10px auto;
+  background-color: rgb(70, 70, 70);
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin-bottom: 50px;
+}
+
+.boton-crecimiento {
+  transition: transform 0.3s ease-in-out;
+}
+.boton-crecimiento:hover {
+  transform: scale(1.1);
+}
+
+.btn-f {
+  text-decoration: none;
+  color: rgb(240, 248, 255);
+}
+
+.btn-f:hover {
+  background-color: rgb(108, 117, 125);
+}
+
+/* estilos especificos */
+.titulo {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px;
+  text-decoration: underline;
+}
+
+.container .foto {
+  width: 90%;
+  border-radius: 10px;
+  margin: 20px 30px;
+}
+
+.container .col-xl .tit {
+  color: rgb(220, 53, 69);
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.container .col-xl .mapa {
+  border-radius: 30px;
+  width: 90%;
+  height: 350px;
+}
+
+.container .col .foto-h {
+  width: 90%;
+  border-radius: 15px;
+}
+.container .col .pie-img-h {
+  padding-top: 10px;
+  color: rgb(220, 53, 69);
+}
+
+.titulos-dep .titulo-d1 {
+  display: flex;
+  justify-content: center;
+}
+.titulos-dep .titulo-d2 {
+  display: flex;
+  justify-content: center;
+  color: rgb(220, 53, 69);
+}
+
+.container .foto-d {
+  width: auto;
+  height: 250px;
+  border-radius: 5px;
+}
+.container .foto-d-2 {
+  width: 230px;
+  height: auto;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.container .fila {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.container .fila .f1 {
+  margin: 20px 0px;
+  width: 400px;
+  border-radius: 15px;
+}
+
+.container .fila .encue {
+  color: rgb(220, 53, 69);
+  margin-top: 30px;
+}
+.container .fila .mapa2 {
+  border-radius: 15px;
+  height: 300px;
+  width: 90%;
+}
+
+.cuadro-c .cua-txt {
+  margin-top: 50px;
+  width: 70%;
+  height: 75px;
+  background-color: rgb(70, 70, 70);
+  border-radius: 15px;
+  margin-left: 15%;
+}
+
+/*# sourceMappingURL=styles.css.map */

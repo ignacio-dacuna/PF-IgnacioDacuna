@@ -1,0 +1,111 @@
+/* estilos especificos */
+
+.titulo{
+    @include centrado;
+    padding: 20px 0px;
+    text-decoration: underline;
+}
+
+.container {
+        .foto{
+            width: 90%;
+            border-radius: 10px;
+            margin: 20px 30px;
+        }
+}
+
+.container {
+    .col-xl{
+        .tit{
+            color: rgb(220, 53, 69);
+            margin-top: 20px;
+            font-weight: 600;
+        }
+    }
+}
+
+.container {
+    .col-xl{
+        .mapa{
+            border-radius: 30px;
+            width: 90%;
+            height: 350px;
+        }
+    }
+}
+
+.container {
+    .col{
+        .foto-h{
+            width: 90%;
+            border-radius: 15px;
+        }
+        .pie-img-h{
+            padding-top: 10px;
+            color: $rojo;
+        }
+    }
+}
+
+.titulos-dep{
+    .titulo-d1{
+        @include centrado
+    }
+    .titulo-d2{
+        @include centrado;
+        color: $rojo;
+    }
+}
+
+.container{
+    .foto-d{
+        width: auto;
+        height: 250px;
+        border-radius: 5px;
+    }
+    .foto-d-2{
+        width: 230px;
+        height: auto;
+        border-radius: 5px;
+        align-items: center;
+    }
+}
+.container{
+    .fila{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        .f1{
+            margin: 20px 0px;
+            width: 400px;
+            border-radius: 15px;
+        }
+    }
+}
+
+
+.container{
+    .fila{
+        .encue{
+            color: $rojo;
+            margin-top: 30px;
+        }
+        .mapa2{
+            border-radius: 15px;
+            height: 300px;
+            width: 90%
+        }
+    }
+}
+
+.cuadro-c{
+    .cua-txt{
+        margin-top: 50px;
+        width: 70%;
+        height: 75px;
+        background-color: rgb(70, 70, 70);
+        border-radius: 15px;
+        margin-left: 15%;
+    }
+}

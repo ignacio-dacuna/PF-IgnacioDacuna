@@ -1,0 +1,48 @@
+/* header */
+header{
+    background-color: $gris;
+    .custom{
+        background-color: $gris;
+        .container{
+            background-color: $gris;
+            .navbar-brand{
+                background-color: $gris;
+                @include animacion-crecimiento;
+                margin-left: 5px;
+            }
+            .navbar-toggler{
+                background-color: $negro;
+            }
+        }
+    }
+    .logo{
+        background-color: $gris;
+        @include animacion-crecimiento;
+        height: 60px;
+    }
+    .palabras{
+        background-color: $gris;
+        justify-content: flex-end;
+    }
+    .nav-link{
+        background-color: $gris;
+        color: $blanco;
+        
+    }
+}
+
+
+
+/* footer */
+
+.linea-gris{
+    margin-top: 10px;
+    background-color: rgb(52, 58, 64);
+    height: 5px;
+    width: 100%;
+}
+
+.h4{
+    color: rgb(220, 53, 69);
+    font-weight: 600;
+}

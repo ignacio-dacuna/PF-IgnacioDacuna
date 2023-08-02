@@ -1,0 +1,142 @@
+/*
+*{
+    @include o-px;
+    background-color:$negro;
+    color: $blanco;
+    font-family: $fuente;
+}
+*/
+
+
+
+.h1{
+    font-weight: 800;
+}
+
+.logo{
+    height: 75px;
+}
+
+.palabras{
+    justify-content: flex-end;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    text-decoration: underline;
+}
+
+.foto{
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 20px ;
+}
+
+
+
+.tit{
+    color: rgb(220, 53, 69);
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.h4{
+    color: rgb(220, 53, 69);
+    font-weight: 600;
+}
+
+.pa{
+    width: 50%;
+}
+
+.separador{
+    height: 150px;
+}
+
+.separador-1{
+    height: 20px;
+}
+
+.mapa{
+    
+    border-radius: 30px;
+    width: 90%;
+    height: 350px;
+}
+.punto{
+    color: red;
+    font-size: xx-large;
+}
+
+.foto-h{
+    width: 90%;
+    border-radius: 15px;
+}
+
+.pie-img-h{
+    padding-top: 10px;
+    color: rgb(220, 53, 69);
+}
+
+.titulo-d2{
+    color: rgb(226, 35, 26);
+}
+
+.separador-2{
+    height: 75px;
+}
+
+.foto-d{
+    width: auto;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.foto-d-2{
+    width: 230px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.f1{
+    margin: 20px 0px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.fila{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mapa2{
+    border-radius: 15px;
+    height: 300px;
+    width: 90%;
+}
+
+.encue{
+    margin-top: 30px;
+}
+
+.cua-txt{
+    margin-top: 50px;
+    width: 70%;
+    height: 75px;
+    background-color: rgb(70, 70, 70);
+    border-radius: 15px;
+    margin-left: 15%;
+}
+
+.butn{
+    display: flex;
+    margin: 10px auto;
+    background-color: rgb(70, 70, 70);
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-bottom: 50px;
+}
