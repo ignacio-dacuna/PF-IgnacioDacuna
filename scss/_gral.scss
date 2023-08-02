@@ -37,3 +37,11 @@
     @include animacion-crecimiento;
 }
 
+.btn-f{
+    text-decoration: none;
+    color: $blanco;
+}
+
+.btn-f:hover{
+    background-color: rgb(108, 117, 125);
+}

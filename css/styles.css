@@ -99,6 +99,15 @@ header .nav-link {
   transform: scale(1.1);
 }
 
+.btn-f {
+  text-decoration: none;
+  color: rgb(240, 248, 255);
+}
+
+.btn-f:hover {
+  background-color: rgb(108, 117, 125);
+}
+
 /* estilos especificos */
 .titulo {
   display: flex;
